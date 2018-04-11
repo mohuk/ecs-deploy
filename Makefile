@@ -45,7 +45,7 @@ vet:
 test: pretest vet lint-test
 	@go test -v $$(go list -f '{{ .ImportPath }}' ./... | grep -v vendor/) -p=1
 
-build: clean deps test
+build: clean deps
 	@go build -x -ldflags ${LDFLAGS} -o bin/${BINARY} github.com/mohuk/${BINARY}/cmd/${BINARY}
 
 fmt:
