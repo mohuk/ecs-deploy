@@ -34,3 +34,8 @@ Usage of ./ecs-deploy_darwin_386:
   -s string
     	ECS Service to deploy
 ```
+
+Deploy:
+```bash
+λ ecs-deploy -c ecs-cluster -s ecs-service -i ecs-image
+```
