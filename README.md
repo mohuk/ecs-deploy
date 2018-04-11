@@ -1,6 +1,9 @@
 # ECS Deploy
 > Binary to update and deploy services on AWS ECS
 
+## Authentication
+Tool will look for standard AWS authentication variables i.e. `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`. Simply export them on your terminal and the tool will comsume them for authentication
+
 ## Install
 ```bash
 # install with go get and make sure you have $GOPATH/bin in your path
