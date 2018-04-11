@@ -1,0 +1,9 @@
+package: github.com/mohuk/ecs-deploy
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v1.13.32
+  subpackages:
+  - aws
+  - aws/client
+  - aws/session
+  - service/ecs

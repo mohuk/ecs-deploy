@@ -1,0 +1,39 @@
+hash: f59c871471a9e9e247dad120c20772cd5dd5fd575648340a347aae2b427847a6
+updated: 2018-04-11T15:19:56.400417+05:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 9b0098a71f6d4d473a26ec8ad3c2feaac6eb1da6
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/json/jsonutil
+  - private/protocol/jsonrpc
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - service/ecs
+  - service/sts
+- name: github.com/go-ini/ini
+  version: 5e9692864e22d02ac79e2fa499cffb00520b4fea
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+testImports: []
